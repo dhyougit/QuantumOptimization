@@ -30,19 +30,19 @@ We apply quantum-inspired algorithms including:
 
 ## Key Features
 
-- ✅ Quantum-inspired feature encoding for behavioral data
-- ✅ Hybrid quantum-classical neural networks
-- ✅ Quantum annealing-based anomaly detection
-- ✅ Real-time bad actor scoring system
-- ✅ Visualization of quantum state evolution
-- ✅ Comparison with classical ML methods
-- ✅ Scalable architecture for production use
+- Quantum-inspired feature encoding for behavioral data
+-  Hybrid quantum-classical neural networks
+-  Quantum annealing-based anomaly detection
+-  Real-time bad actor scoring system
+-  Visualization of quantum state evolution
+-  Comparison with classical ML methods
+-  Scalable architecture for production use
 
 ## Installation
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/quantum-bad-actor-detection.git
+git clone https://github.com/dhyougit/quantum-bad-actor-detection.git
 cd quantum-bad-actor-detection
 
 # Create virtual environment
@@ -351,9 +351,9 @@ If you use this code in your research, please cite:
 ```bibtex
 @software{quantum_bad_actor_detection,
   title={Quantum-Inspired Bad Actor Detection},
-  author={Your Name},
+  author={dhyougit,
   year={2025},
-  url={https://github.com/yourusername/quantum-bad-actor-detection}
+  url={https://github.com/dhyougit/quantum-bad-actor-detection}
 }
 ```
 
@@ -374,9 +374,6 @@ Contributions are welcome! Please see CONTRIBUTING.md for guidelines.
 - [ ] AutoML for quantum circuit architecture search
 - [ ] Integration with popular security platforms
 
-## Contact
-
-For questions or support, please open an issue on GitHub or contact [your.email@example.com]
 
 ## Acknowledgments
 

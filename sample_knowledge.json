@@ -1,0 +1,99 @@
+{
+  "knowledge_dim": 512,
+  "retrieval_method": "dense",
+  "entries": [
+    {
+      "text": "The Transformer architecture was introduced in the paper 'Attention is All You Need' by Vaswani et al. in 2017.",
+      "embedding": null,
+      "metadata": {
+        "category": "machine_learning",
+        "source": "research_paper",
+        "year": 2017,
+        "confidence": 1.0
+      }
+    },
+    {
+      "text": "Self-attention allows the model to weigh the importance of different words in a sequence when processing each word.",
+      "embedding": null,
+      "metadata": {
+        "category": "machine_learning",
+        "subcategory": "attention_mechanisms",
+        "confidence": 0.95
+      }
+    },
+    {
+      "text": "BERT (Bidirectional Encoder Representations from Transformers) is a pre-trained language model developed by Google in 2018.",
+      "embedding": null,
+      "metadata": {
+        "category": "machine_learning",
+        "model_type": "encoder",
+        "year": 2018,
+        "confidence": 1.0
+      }
+    },
+    {
+      "text": "GPT (Generative Pre-trained Transformer) uses a decoder-only architecture and is trained on next token prediction.",
+      "embedding": null,
+      "metadata": {
+        "category": "machine_learning",
+        "model_type": "decoder",
+        "confidence": 0.98
+      }
+    },
+    {
+      "text": "Knowledge augmentation helps language models access external information, reducing hallucination and improving factual accuracy.",
+      "embedding": null,
+      "metadata": {
+        "category": "machine_learning",
+        "subcategory": "knowledge_integration",
+        "confidence": 0.92
+      }
+    },
+    {
+      "text": "Retrieval-Augmented Generation (RAG) combines neural retrieval with language generation for knowledge-grounded responses.",
+      "embedding": null,
+      "metadata": {
+        "category": "machine_learning",
+        "subcategory": "rag",
+        "year": 2020,
+        "confidence": 0.96
+      }
+    },
+    {
+      "text": "Multi-head attention allows the model to attend to information from different representation subspaces simultaneously.",
+      "embedding": null,
+      "metadata": {
+        "category": "machine_learning",
+        "subcategory": "attention_mechanisms",
+        "confidence": 0.94
+      }
+    },
+    {
+      "text": "Positional encoding provides information about the position of tokens in a sequence to transformer models.",
+      "embedding": null,
+      "metadata": {
+        "category": "machine_learning",
+        "subcategory": "positional_encoding",
+        "confidence": 0.97
+      }
+    },
+    {
+      "text": "Layer normalization helps stabilize the learning process in deep neural networks by normalizing inputs across features.",
+      "embedding": null,
+      "metadata": {
+        "category": "machine_learning",
+        "subcategory": "normalization",
+        "confidence": 0.93
+      }
+    },
+    {
+      "text": "The feed-forward network in transformers applies two linear transformations with a non-linear activation in between.",
+      "embedding": null,
+      "metadata": {
+        "category": "machine_learning",
+        "subcategory": "neural_networks",
+        "confidence": 0.95
+      }
+    }
+  ]
+}

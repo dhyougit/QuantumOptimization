@@ -1,0 +1,65 @@
+# Quantum Bad Actor Detection Configuration
+
+# Quantum Settings
+quantum:
+  n_qubits: 8
+  circuit_depth: 3
+  optimization_method: 'qaoa'  # Options: qaoa, vqe, annealing
+  variational_layers: 3
+  encoding_type: 'amplitude'  # Options: amplitude, angle, basis
+  use_entanglement: true
+  
+# Detection Settings
+detection:
+  risk_threshold: 0.75
+  min_samples_for_training: 100
+  feature_selection: 'auto'  # Options: auto, manual, pca
+  use_feature_importance: true
+  retraining_frequency_days: 7
+  
+# Model Settings
+model:
+  method: 'vqc'  # Options: vqc, hybrid, kernel, qaoa, ensemble
+  n_layers: 3
+  hidden_dims: [64, 32]  # For hybrid model
+  n_estimators: 5  # For ensemble
+  kernel_gamma: 1.0  # For kernel SVM
+  
+# Training Settings
+training:
+  epochs: 50
+  batch_size: 32
+  learning_rate: 0.001
+  optimizer: 'adam'
+  weight_decay: 0.0001
+  early_stopping_patience: 10
+  validation_split: 0.2
+  
+# Data Settings
+data:
+  n_features: 18
+  bad_actor_ratio: 0.2
+  data_augmentation: false
+  normalize_features: true
+  handle_imbalance: true  # Use oversampling for minority class
+  
+# Performance Settings
+performance:
+  use_gpu: false
+  parallel_circuits: 1
+  batch_inference: true
+  cache_quantum_states: true
+  
+# Logging Settings
+logging:
+  log_level: 'INFO'
+  save_predictions: true
+  save_model_checkpoints: true
+  checkpoint_frequency: 5  # epochs
+  
+# Visualization Settings
+visualization:
+  plot_training_curves: true
+  plot_attention_weights: false
+  plot_risk_distribution: true
+  save_confusion_matrix: true
